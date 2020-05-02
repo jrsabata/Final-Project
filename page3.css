@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html, body {
+    width: 98vw;
+    height: 95vh;
+    background-color: #AD0000;
+    display: flex;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 2%;
+    margin-right: 5px;
+}
+
+aside img {
+    margin: 1em;
+}
+aside ul {
+    margin: 1em;
+}
+header h1 {
+    color: white;
+}
+header h2 {
+    color: white;
+    font-style: italic;
+    font-size: xx-large;
+    margin: 1em;
+    border-radius: 1rem;
+    box-shadow: white;
+}
+header, main, aside, section, footer {
+    margin: 5px;
+}
+
+main, footer, section, article {
+    width: calc(100% - 10px);
+    background-color: linear-gradient(to bottom, #660066 0%, #000099 100%);
+}
+
+header, footer 
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+}
+
+aside {
+    width: calc(100% - 10px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#ParentSection {
+    width: calc(50% - 10px);
+    display: flex;
+    flex-direction: column;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header img {
+    margin: 1em;
+    align-items: center;
+}
+
+#Newsh2 {
+    font-style: italic;
+    margin: 1em;
+}
+
+#Line {
+    margin: .25em;
+}
+
+#Sooners {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#OU {
+    float: left;
+}

@@ -1,0 +1,56 @@
+html {
+    background-color: lightblue;
+}
+
+TABLE {
+    border: 1px solid blue;
+    text-align: center;
+    height: 360px;
+    width: 180px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Week {
+    font-style: italic;
+    color: blue;
+}
+
+#Weather {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: navy;
+    font-size: 60px;
+    text-align: center;
+}
+
+#Cast {
+    font-style: italic;
+    color: blue;
+}
+
+#Menu {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: navy;
+}
+
+TR, TD {
+    border: 1px solid blue;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2){
+main {
+    height: calc(80vh - 10px);
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+  }
